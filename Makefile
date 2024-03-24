@@ -42,6 +42,8 @@ post-install:
 	# 	--workdir $(shell pwd) \
 	# 	docker.io/nixos/nix nix --experimental-features 'nix-command flakes' develop
 
+
+## change make file with fix from: Command: make tools, error #139
 tools:
 	@docker run \
 		--rm \
